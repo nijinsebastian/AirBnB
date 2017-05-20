@@ -24,7 +24,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".name" />
-        <activity android:name=".email"></activity>
+        <activity android:name=".email" />
+        <activity android:name=".LOGINMAIN"></activity>
     </application>
 
 </manifest>
