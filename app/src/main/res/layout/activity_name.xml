@@ -14,12 +14,11 @@
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="7dp">
 
-        <TextView
-            android:id="@+id/textView"
+        <ImageButton
+            android:id="@+id/imageButton"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.10"
-            android:text="TextView" />
+            android:layout_height="56dp"
+            app:srcCompat="@drawable/screenshot_1" />
 
         <TextView
             android:id="@+id/textView2"
@@ -58,6 +57,18 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:orientation="vertical"
+            android:layout_weight="0.77"></LinearLayout>
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/screenshot_2" />
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
