@@ -14,6 +14,7 @@ public class FORGET extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_homes);
+        this.getSupportActionBar().hide();
 
         ImageButton tv4 = (ImageButton) findViewById(R.id.imageButton5);
         tv4.setOnClickListener(new View.OnClickListener() {

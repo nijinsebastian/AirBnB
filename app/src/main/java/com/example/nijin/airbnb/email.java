@@ -14,6 +14,7 @@ public class email extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_email);
+        this.getSupportActionBar().hide();
 
         ImageButton tv1 = (ImageButton) findViewById(R.id.imageButton3);
         tv1.setOnClickListener(new View.OnClickListener() {
@@ -24,7 +25,7 @@ public class email extends AppCompatActivity {
             }
         });
         ImageButton tv2 = (ImageButton) findViewById(R.id.imageButton4);
-        tv1.setOnClickListener(new View.OnClickListener() {
+        tv2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(email.this,MainActivity.class);

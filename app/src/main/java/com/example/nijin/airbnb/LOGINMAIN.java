@@ -12,6 +12,7 @@ public class LOGINMAIN extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loginmain);
+        this.getSupportActionBar().hide();
         ImageButton tv1 = (ImageButton) findViewById(R.id.imageButton7);
         tv1.setOnClickListener(new View.OnClickListener() {
             @Override

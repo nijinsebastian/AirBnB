@@ -12,6 +12,7 @@ public class name extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_name);
+        this.getSupportActionBar().hide();
         ImageButton tv4 = (ImageButton) findViewById(R.id.imageButton);
         tv4.setOnClickListener(new View.OnClickListener() {
             @Override
