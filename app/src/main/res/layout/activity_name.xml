@@ -25,6 +25,7 @@
             android:id="@+id/imageButton"
             android:layout_width="match_parent"
             android:layout_height="56dp"
+            android:background="#107577"
             app:srcCompat="@drawable/screenshot_1" />
 
         <TextView
@@ -79,6 +80,7 @@
             android:id="@+id/imageButton2"
             android:layout_width="match_parent"
             android:layout_height="90dp"
+            android:background="#107577"
             app:srcCompat="@drawable/screenshot_2" />
 
     </LinearLayout>

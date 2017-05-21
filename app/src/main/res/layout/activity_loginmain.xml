@@ -33,11 +33,13 @@
                 android:layout_width="143dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.81"
+                android:background="#107577"
                 app:srcCompat="@drawable/screenshot_4" />
 
             <ImageButton
                 android:id="@+id/imageButton8"
                 android:layout_width="204dp"
+                android:background="#107577"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/screenshot_3" />
         </LinearLayout>
@@ -71,7 +73,7 @@
             android:id="@+id/textView21"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=" PASSWORD"
+            android:text="    PASSWORD"
             android:textColor="#fff" />
 
         <EditText
@@ -93,6 +95,7 @@
             android:id="@+id/imageButton9"
             android:layout_width="match_parent"
             android:layout_height="68dp"
+            android:background="#107577"
             app:srcCompat="@drawable/screenshot_2" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

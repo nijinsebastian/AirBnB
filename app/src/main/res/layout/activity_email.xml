@@ -25,6 +25,7 @@
             android:id="@+id/imageButton3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#107577"
             app:srcCompat="@drawable/screenshot_1" />
 
         <TextView
@@ -61,6 +62,7 @@
             android:id="@+id/imageButton4"
             android:layout_width="match_parent"
             android:layout_height="78dp"
+            android:background="#107577"
             app:srcCompat="@drawable/screenshot_2" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
