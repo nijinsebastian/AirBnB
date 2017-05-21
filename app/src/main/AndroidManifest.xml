@@ -26,8 +26,7 @@
         <activity android:name=".name" />
         <activity android:name=".email" />
         <activity android:name=".LOGINMAIN" />
-        <activity android:name=".profile" />
-        <activity android:name=".SettingsActivity"></activity>
+        <activity android:name=".homes"></activity>
     </application>
 
 </manifest>
