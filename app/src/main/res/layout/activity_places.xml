@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:background="#107577"
     android:layout_height="match_parent"
-    tools:context="com.example.nijin.airbnb.homes">
+    tools:context="com.example.nijin.airbnb.places">
 
     <LinearLayout
         android:layout_width="0dp"
@@ -135,7 +135,7 @@
                     android:layout_weight="0.5">
                     <ImageView
                         android:layout_width="match_parent"
-                        android:src="@drawable/pic2"
+                        android:src="@drawable/meet"
                         android:layout_margin="10dp"
                         android:layout_height="match_parent" />
                     <TextView
@@ -147,7 +147,7 @@
                     <ImageView
                         android:layout_width="match_parent"
                         android:src="@drawable/pic2"
-                    android:visibility="invisible"
+                        android:visibility="invisible"
                         android:layout_margin="10dp"
                         android:layout_height="match_parent" />
                 </LinearLayout>
@@ -158,15 +158,15 @@
                     android:layout_weight="0.5">
                     <ImageView
                         android:layout_width="match_parent"
-                        android:src="@drawable/pic2"
+                        android:src="@drawable/meet"
                         android:layout_margin="10dp"
                         android:layout_height="match_parent" />
 
                     <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:visibility="invisible"
-                    android:text="$23 Listen To live jazz in a cozy flat"/>
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:visibility="invisible"
+                        android:text="$23 Listen To live jazz in a cozy flat"/>
 
                     <ImageView
                         android:layout_width="match_parent"
