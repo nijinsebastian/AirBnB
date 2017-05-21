@@ -3,6 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="#107577"
+
     android:layout_height="match_parent"
     tools:context="com.example.nijin.airbnb.LOGINMAIN">
 
@@ -30,8 +32,8 @@
                 android:id="@+id/imageButton7"
                 android:layout_width="143dp"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/screenshot_4"
-                android:layout_weight="0.81" />
+                android:layout_weight="0.81"
+                app:srcCompat="@drawable/screenshot_4" />
 
             <ImageButton
                 android:id="@+id/imageButton8"
@@ -44,8 +46,9 @@
             android:id="@+id/textView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.13"
+            android:layout_weight="0.30"
             android:text=" Log in "
+            android:textColor="#fff"
             android:textSize="30sp" />
 
         <TextView
@@ -53,6 +56,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.13"
+            android:textColor="#fff"
             android:text="   EMAIL ADDRESS" />
 
         <EditText
@@ -63,11 +67,12 @@
             android:ems="10"
             android:inputType="textPersonName" />
 
-        <LinearLayout
-            android:id="@+id/D"
+        <TextView
+            android:id="@+id/textView21"
             android:layout_width="match_parent"
-            android:layout_height="75dp"
-            android:orientation="horizontal"></LinearLayout>
+            android:layout_height="wrap_content"
+            android:text=" PASSWORD"
+            android:textColor="#fff" />
 
         <EditText
             android:id="@+id/editText5"
@@ -82,7 +87,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.33"
-            android:text="TextView" />
+            android:text="" />
 
         <ImageButton
             android:id="@+id/imageButton9"

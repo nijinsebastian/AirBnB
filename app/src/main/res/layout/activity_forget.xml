@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#107577"
     tools:context="com.example.nijin.airbnb.FORGET">
 
     <LinearLayout
@@ -35,23 +36,26 @@
             android:id="@+id/textView12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.08"
+            android:layout_weight="0.14"
             android:text="Forget your password ?"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textColor="#fff"/>
 
         <TextView
             android:id="@+id/textView13"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.08"
-            android:text="Enter your email yo identify your account." />
+            android:layout_weight="0.20"
+            android:text="Enter your email yo identify your account."
+            android:textColor="#fff"/>
 
         <TextView
             android:id="@+id/textView14"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.08"
-            android:text="EMAIL ADDRESS" />
+            android:layout_weight="0.25"
+            android:text="EMAIL ADDRESS"
+            android:textColor="#fff"/>
 
         <EditText
             android:id="@+id/editText6"
@@ -65,7 +69,7 @@
             android:id="@+id/imageButton6"
             android:layout_width="match_parent"
             android:layout_height="20dp"
-            app:srcCompat="@drawable/screenshot_2"
-            android:layout_weight="0.29" />
+            android:layout_weight="0.29"
+            app:srcCompat="@drawable/screenshot_2" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
